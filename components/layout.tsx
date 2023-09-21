@@ -45,7 +45,9 @@ export default function Layout({
           </button>
         ) : null}
         {title ? (
-          <span className={cls(canGoBack ? "mx-auto" : "", "")}>{title}</span>
+          <span className={cls(canGoBack ? "mx-auto" : "", "font-bold")}>
+            {title}
+          </span>
         ) : null}
       </div>
       <div className={cls("pt-12", hasTabBar ? "pb-24" : "")}>{children}</div>
@@ -55,7 +57,7 @@ export default function Layout({
             className={cls(
               "flex flex-col items-center space-y-2 ",
               pathname === "/"
-                ? "text-orange-500"
+                ? "text-blue-500"
                 : "transition-colors hover:text-gray-500",
             )}
             href="/"
@@ -80,7 +82,7 @@ export default function Layout({
             className={cls(
               "flex flex-col items-center space-y-2 ",
               pathname === "/community"
-                ? "text-orange-500"
+                ? "text-blue-500"
                 : "transition-colors hover:text-gray-500",
             )}
             href="/community"
@@ -105,7 +107,7 @@ export default function Layout({
             className={cls(
               "flex flex-col items-center space-y-2 ",
               pathname === "/chats"
-                ? "text-orange-500"
+                ? "text-blue-500"
                 : "transition-colors hover:text-gray-500",
             )}
             href="/chats"
@@ -130,7 +132,7 @@ export default function Layout({
             className={cls(
               "flex flex-col items-center space-y-2 ",
               pathname === "/live"
-                ? "text-orange-500"
+                ? "text-blue-500"
                 : "transition-colors hover:text-gray-500",
             )}
             href="/live"
@@ -155,7 +157,7 @@ export default function Layout({
             className={cls(
               "flex flex-col items-center space-y-2 ",
               pathname === "/profile"
-                ? "text-orange-500"
+                ? "text-blue-500"
                 : "transition-colors hover:text-gray-500",
             )}
             href="/profile"

@@ -1,5 +1,3 @@
-"use client";
-
 import Layout from "@/components/layout";
 import Message from "@/components/message";
 import type { NextPage } from "next";

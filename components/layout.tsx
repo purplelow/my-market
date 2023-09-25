@@ -57,7 +57,7 @@ export default function Layout({
             className={cls(
               "flex flex-col items-center space-y-2 ",
               pathname === "/"
-                ? "text-blue-500"
+                ? "text-purple-500"
                 : "transition-colors hover:text-gray-500",
             )}
             href="/"
@@ -82,7 +82,7 @@ export default function Layout({
             className={cls(
               "flex flex-col items-center space-y-2 ",
               pathname === "/community"
-                ? "text-blue-500"
+                ? "text-purple-500"
                 : "transition-colors hover:text-gray-500",
             )}
             href="/community"
@@ -107,7 +107,7 @@ export default function Layout({
             className={cls(
               "flex flex-col items-center space-y-2 ",
               pathname === "/chats"
-                ? "text-blue-500"
+                ? "text-purple-500"
                 : "transition-colors hover:text-gray-500",
             )}
             href="/chats"
@@ -132,7 +132,7 @@ export default function Layout({
             className={cls(
               "flex flex-col items-center space-y-2 ",
               pathname === "/live"
-                ? "text-blue-500"
+                ? "text-purple-500"
                 : "transition-colors hover:text-gray-500",
             )}
             href="/live"
@@ -157,7 +157,7 @@ export default function Layout({
             className={cls(
               "flex flex-col items-center space-y-2 ",
               pathname === "/profile"
-                ? "text-blue-500"
+                ? "text-purple-500"
                 : "transition-colors hover:text-gray-500",
             )}
             href="/profile"

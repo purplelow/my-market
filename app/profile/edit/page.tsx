@@ -11,7 +11,7 @@ const EditProfile: NextPage = () => {
           <div className="h-14 w-14 rounded-full bg-slate-500" />
           <label
             htmlFor="picture"
-            className="cursor-pointer rounded-md border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            className="cursor-pointer rounded-md border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
           >
             Change
             <input

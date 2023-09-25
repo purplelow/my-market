@@ -17,7 +17,7 @@ export default function Enter() {
               className={cls(
                 "border-b-2 pb-4 font-medium",
                 method === "email"
-                  ? "border-blue-500  text-blue-400"
+                  ? "border-purple-500  text-purple-400"
                   : "border-transparent text-gray-500",
               )}
               onClick={onEmailClick}
@@ -28,7 +28,7 @@ export default function Enter() {
               className={cls(
                 "border-b-2 pb-4 font-medium",
                 method === "phone"
-                  ? "border-blue-500  text-blue-400"
+                  ? "border-purple-500  text-purple-400"
                   : "border-transparent text-gray-500",
               )}
               onClick={onPhoneClick}
@@ -46,7 +46,7 @@ export default function Enter() {
             {method === "email" ? (
               <input
                 type="email"
-                className="w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                className="w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-purple-500 focus:outline-none focus:ring-purple-500"
                 required
               />
             ) : null}
@@ -57,15 +57,15 @@ export default function Enter() {
                 </span>
                 <input
                   type="number"
-                  className="w-full appearance-none rounded-md rounded-l-none border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-blue-500"
+                  className="w-full appearance-none rounded-md rounded-l-none border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-purple-500 focus:outline-none focus:ring-purple-500"
                   required
                 />
               </div>
             ) : null}
           </div>
           <button
-            className="mt-5 rounded-md border border-transparent bg-blue-500
-          px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            className="mt-5 rounded-md border border-transparent bg-purple-500
+          px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
           >
             {method === "email" ? "Get login link" : null}
             {method === "phone" ? "Get one-time password" : null}
